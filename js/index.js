@@ -11,3 +11,7 @@ $("#disappear").on('click', function(){
 $("#both").on('click', function(){
   $("#asta").toggle()
 })
+
+$("#fade").on('click', function(){
+  $("#asta").toggleClass("fade")
+})
