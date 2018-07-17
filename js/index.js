@@ -25,3 +25,14 @@ $('#asta').hover(function(){
 $("#add-item").on('click', function(){
   $("#list").append( "<li>"+$("#new-item").val()+"</li>" )
 })
+
+$("#last-button").on('click', function(){
+  $("*").css('background-color', 'red');
+})
+
+// $("#last-button").on('click', function(){
+//   console.log('easdf')
+//   $("*").each(function( index ) {
+//     $(index).css('background-color', 'red')
+//   });
+// })
