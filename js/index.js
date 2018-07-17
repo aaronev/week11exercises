@@ -5,3 +5,9 @@ $("#appear").on('click', function(){
 $("#disappear").on('click', function(){
   $('#asta').hide()
 })
+
+//jquery toggle
+
+$("#both").on('click', function(){
+  $("#asta").toggle()
+})
