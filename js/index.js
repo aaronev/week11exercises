@@ -21,3 +21,7 @@ $('#asta').hover(function(){
     }, function(){
     $(this).attr("src", 'https://vignette.wikia.nocookie.net/blackclover/images/9/98/Asta_profile.png/revision/latest?cb=20150719164752');
 })
+
+$("#add-item").on('click', function(){
+  $("#list").append( "<li>"+$("#new-item").val()+"</li>" )
+})
