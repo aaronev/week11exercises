@@ -1,3 +1,7 @@
 #asta {
   transition: 0.3s ease;
 }
+
+.fade {
+  opacity: 0;
+}
